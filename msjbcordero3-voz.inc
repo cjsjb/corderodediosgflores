@@ -46,9 +46,18 @@
             } % Voice
 
             \lyricsto "voz" \new Lyrics \lyricmode {
-                 "Cor" "de" "ro" "de" "Dios," "que" "qui" "tas" "el" "pe" "ca" "do" "del" "mun" "do," "ten" "pie" "dad," "ten" "pie" "dad" "de" "no" "so" "tros." "Cor" "de" "ro" "de" "Dios," "que" "qui" "tas" "el" "pe" "ca" "do" "del" "mun" "do," "ten" "pie" "dad," "ten" "pie" "dad" "de" "no" "so" "tros." "Cor" "de" "ro" "de" "Dios," "que" "qui" "tas" "el" "pe" "ca" "do" "del" "mun" "do," "da" "nos" "la" "paz," "da" "nos" "la" "paz," "da" "nos" "la" "paz." 
+		"Cor" -- "de" -- "ro" "de" "Dios,"
+		"que" "qui" -- "tas" "el" "pe" -- "ca" -- "do" "del" "mun" -- "do,"
+		"ten" "pie" -- "dad," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+
+		"Cor" -- "de" -- "ro" "de" "Dios,"
+		"que" "qui" -- "tas" "el" "pe" -- "ca" -- "do" "del" "mun" -- "do,"
+		"ten" "pie" -- "dad," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+
+		"Cor" -- "de" "ro" "de" "Dios,"
+		"que" "qui" -- "tas" "el" "pe" -- "ca" -- "do" "del" "mun" -- "do,"
+		"da" -- "nos" "la" "paz," "da" -- "nos" "la" "paz," "da" -- "nos" "la" "paz."
              } % Lyrics
 
 
         >> % Staff
-
