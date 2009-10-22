@@ -7,7 +7,8 @@
             \new Voice \globalTempo
 
             \context Voice = "bajo" {
-                \override Voice.TextScript #'padding = #2.0                \override MultiMeasureRest #'expand-limit = 1
+                \override Voice.TextScript #'padding = #2.0
+                \override MultiMeasureRest #'expand-limit = 1
 
                 \clef "bass_8"
                 \key a \major
