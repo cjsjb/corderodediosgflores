@@ -1,5 +1,6 @@
         \context Staff = "piano" << 
             \set Staff.instrumentName = "Piano"
+            \set Staff.shortInstrumentName = "P."
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
