@@ -17,7 +17,7 @@
                 a, 8 e a e gis e gis e  |
                 b, 8 d < fis a > d g, b, < fis b d > 4  |
 %% 5
-                < fis a cis' d > 8 < cis' a > 4 \stemUp < fis d a cis' > 4. \stemNeutral fis 8 a  |
+                < fis a cis' d > 8 < cis' a > 4 < fis d a cis' > 4. fis 8 a  |
                 g, 8 b, d g ~ g 2  |
                 fis, 8 a, d fis ~ fis 2  |
                 a, 8 e a e gis e < gis b > < e a >  |
@@ -25,7 +25,7 @@
 %% 10
                 a, 8 e a e gis e gis e  |
                 b, 8 d < fis a > d g, b, < b d fis > 4  |
-                < cis' a fis d > 8 < cis' a > 4 \stemUp < cis' a d fis > 4. \stemNeutral fis 8 a  |
+                < cis' a fis d > 8 < cis' a > 4 < cis' a d fis > 4. fis 8 a  |
                 g, 8 b, d g ~ g 2  |
                 fis, 8 a, d fis ~ fis 2  |
 %% 15
@@ -33,7 +33,7 @@
                 a, 8 e a e gis e gis e  |
                 a, 8 e a e gis e gis e  |
                 b, 8 d < fis a > d g, b, < b d fis > 4  |
-                < cis' a fis d > 8 < cis' a > 4 \stemUp < cis' a d fis > 4. \stemNeutral fis 8 a  |
+                < cis' a fis d > 8 < cis' a > 4 < cis' a d fis > 4. fis 8 a  |
 %% 20
                 g, 8 b, d g ~ g 2  |
                 fis, 8 a, d fis ~ fis 2  |
