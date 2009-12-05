@@ -14,7 +14,7 @@
                 \key a \major
                 R1*2  |
                 a' 2 gis'  |
-                d'' 4 cis'' \times 2/3 { a' fis' a' }  |
+                d'' 4 cis'' a' 8. fis' a' 8  |
 %% 5
                 cis'' 1  |
                 g' 1  |
@@ -22,7 +22,7 @@
                 R1*2  |
 %% 10
                 a' 2 gis'  |
-                d'' 4 cis'' \times 2/3 { a' fis' a' }  |
+                d'' 4 cis'' a' 8. fis' a' 8  |
                 cis'' 1  |
                 g' 1  |
                 fis' 1  |
