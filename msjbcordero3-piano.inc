@@ -12,37 +12,38 @@
 
                 \clef "treble_8"
                 \key a \major
-                a, 8 e a e gis e gis e  |
-                a, 8 e a e gis e gis e  |
-                a, 8 e a e gis e gis e  |
-                b, 8 fis < d' b fis' > fis < b d' fis' g, > 8. < fis' d' g, b > ~ < g, b d' fis' > 8  |
+
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
+                b, 8 \sustainOn fis < d' b fis' > fis \sustainOff < b d' fis' g, > 8. \sustainOn < fis' d' g, b > ~ < g, b d' fis' > 8 \sustainOff  |
 %% 5
-                < d' a cis' d fis' > 8 < cis' a d d' fis' > 4 < d' d a cis' fis' > 4. fis 8 a  |
-                g, 8 d a < g a b d' d g, > ~ < d' b g, d a g > 4 d 8 g  |
-                fis, 8 d fis < fis d fis, a d' > ~ < fis a d' d fis, > 4 d 8 fis  |
-                a, 8 e a e gis e < gis b > < e a >  |
-                a, 8 e a e gis e gis e  |
+                < d' a cis' d fis' > 8 \sustainOn < cis' a d d' fis' > 4 < d' d a cis' fis' > 4. fis 8 a \sustainOff  |
+                g, 8 \sustainOn d a < g a b d' d g, > ~ < d' b g, d a g > 4 d 8 g \sustainOff  |
+                fis, 8 \sustainOn d fis < fis d fis, a d' > ~ < fis a d' d fis, > 4 d 8 fis \sustainOff  |
+                a, 8 \sustainOn e a e gis e < gis b > < e a > \sustainOff  |
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
 %% 10
-                a, 8 e a e gis e gis e  |
-                b, 8 fis < b fis' d' > fis < g, fis' d' b > 8. < g, fis' b d' > ~ < g, fis' d' b > 8  |
-                < fis' cis' d' d a > 8 < fis' d' d a cis' > 4 < fis' cis' a d d' > 4. fis 8 a  |
-                g, 8 d a < d' b a g g, d > ~ < d' g a d g, b > 4 d 8 g  |
-                fis, 8 d fis < d' a fis fis, d > ~ < d' fis, d a fis > 4 d 8 fis  |
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
+                b, 8 \sustainOn fis < b fis' d' > fis \sustainOff < g, fis' d' b > 8. \sustainOn < g, fis' b d' > ~ < g, fis' d' b > 8 \sustainOff  |
+                < fis' cis' d' d a > 8 \sustainOn < fis' d' d a cis' > 4 < fis' cis' a d d' > 4. fis 8 a \sustainOff  |
+                g, 8 \sustainOn d a < d' b a g g, d > ~ < d' g a d g, b > 4 d 8 g \sustainOff  |
+                fis, 8 \sustainOn d fis < d' a fis fis, d > ~ < d' fis, d a fis > 4 d 8 fis \sustainOff  |
 %% 15
-                a, 8 e a e gis e < gis b > < e a >  |
-                a, 8 e a e gis e gis e  |
-                a, 8 e a e gis e gis e  |
-                b, 8 fis < b fis' d' > fis < g, fis' d' b > 8. < g, fis' b d' > ~ < g, fis' d' b > 8  |
-                < fis' cis' d' d a > 8 < fis' d' d a cis' > 4 < fis' cis' a d d' > 4. fis 8 a  |
+                a, 8 \sustainOn e a e gis e < gis b > < e a > \sustainOff  |
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
+                b, 8 \sustainOn fis < b fis' d' > fis \sustainOff < g, fis' d' b > 8. \sustainOn < g, fis' b d' > ~ < g, fis' d' b > 8 \sustainOff  |
+                < fis' cis' d' d a > 8 \sustainOn < fis' d' d a cis' > 4 < fis' cis' a d d' > 4. fis 8 a \sustainOff  |
 %% 20
-                g, 8 d a < d' b a g g, d > ~ < d' g a d g, b > 4 d 8 g  |
-                fis, 8 d fis < d' a fis fis, d > ~ < d' fis, d a fis > 4 d 8 fis  |
-                f, 8 a, c f a c' f' a'  |
-                < f' a' c'' f > 2 r  |
-                a, 8 e a e gis e gis e  |
+                g, 8 \sustainOn d a < d' b a g g, d > ~ < d' g a d g, b > 4 d 8 g \sustainOff  |
+                fis, 8 \sustainOn d fis < d' a fis fis, d > ~ < d' fis, d a fis > 4 d 8 fis \sustainOff  |
+                f, 8 \sustainOn a, c f a c' f' a'  |
+                < f' a' c'' f > 2 r \sustainOff  |
+                a, 8 \sustainOn e a e gis e gis e \sustainOff  |
 %% 25
-                a, 8 e a e gis e gis e  |
-                < a, e a > 1  |
+                a, 8 \sustainOn e a e gis e gis e  |
+                < a, e a > 1 \sustainOff  |
                 \bar "|."
             } % Voice
         >> % Staff
