@@ -18,16 +18,16 @@
                 d'' 8 d'' cis'' a' d'' 8. cis'' d'' 8  |
 %% 5
                 cis'' 8 a' 2 r8 r4  |
-                g' 4 b' 8 d'' ~ d'' 4 r  |
-                fis' 4 a' 8 d'' ~ d'' 4 cis'' 8 a'  |
+                g' 4 b' 8 d'' 4. r 4  |
+                fis' 4 a' 8 d'' 4. cis'' 8 a'  |
                 b' 4. ^( cis'' 8 ) cis'' 2  |
                 r2 r4 r8 a'  |
 %% 10
                 a' 8 e' 4 cis' 8 e' 4 r8 e'  |
                 d'' 8 d'' cis'' a' d'' 8. cis'' d'' 8  |
                 cis'' 8 a' 2 r8 r4  |
-                g' 4 b' 8 d'' ~ d'' 4 r  |
-                fis' 4 a' 8 d'' ~ d'' 4 cis'' 8 a'  |
+                g' 4 b' 8 d'' 4. r 4  |
+                fis' 4 a' 8 d'' 4. cis'' 8 a'  |
 %% 15
                 b' 4. ^( cis'' 8 ) cis'' 2  |
                 r2 r4 r8 a'  |
@@ -35,8 +35,8 @@
                 d'' 8 d'' cis'' a' d'' 8. cis'' d'' 8  |
                 cis'' 8 a' 2 r8 r4  |
 %% 20
-                g' 8 g' b' d'' ~ d'' 4 r  |
-                fis' 8 fis' a' d'' ~ d'' 4 r  |
+                g' 8 g' b' d'' 4. r 4  |
+                fis' 8 fis' a' d'' 4. r 4  |
                 f' 4 _( a' ) d'' 2  |
                 r2 r4 cis'' 8 _( a' )  |
                 b' 8 ^( cis'' 2 ) r8 r4  |

@@ -19,16 +19,16 @@
                 b, 8 \sustainOn fis < d' b fis' > fis \sustainOff < b d' fis' g, > 8. \sustainOn < fis' d' g, b > ~ < g, b d' fis' > 8 \sustainOff  |
 %% 5
                 < d' a cis' d fis' > 8 \sustainOn < cis' a d d' fis' > 4 < d' d a cis' fis' > 4. fis 8 a \sustainOff  |
-                g, 8 \sustainOn d a < g a b d' d g, > ~ < d' b g, d a g > 4 d 8 g \sustainOff  |
-                fis, 8 \sustainOn d fis < fis d fis, a d' > ~ < fis a d' d fis, > 4 d 8 fis \sustainOff  |
+                g, 8 \sustainOn d a < g a b d' d g, > 4. d 8 g \sustainOff  |
+                fis, 8 \sustainOn d fis < fis d fis, a d' > 4. d 8 fis \sustainOff  |
                 a, 8 \sustainOn e a e gis e < gis b > < e a > \sustainOff  |
                 a, 8 \sustainOn e a e gis e gis e \sustainOff  |
 %% 10
                 a, 8 \sustainOn e a e gis e gis e \sustainOff  |
                 b, 8 \sustainOn fis < b fis' d' > fis \sustainOff < g, fis' d' b > 8. \sustainOn < g, fis' b d' > ~ < g, fis' d' b > 8 \sustainOff  |
                 < fis' cis' d' d a > 8 \sustainOn < fis' d' d a cis' > 4 < fis' cis' a d d' > 4. fis 8 a \sustainOff  |
-                g, 8 \sustainOn d a < d' b a g g, d > ~ < d' g a d g, b > 4 d 8 g \sustainOff  |
-                fis, 8 \sustainOn d fis < d' a fis fis, d > ~ < d' fis, d a fis > 4 d 8 fis \sustainOff  |
+                g, 8 \sustainOn d a < d' b a g g, d > 4. d 8 g \sustainOff  |
+                fis, 8 \sustainOn d fis < d' a fis fis, d > 4. d 8 fis \sustainOff  |
 %% 15
                 a, 8 \sustainOn e a e gis e < gis b > < e a > \sustainOff  |
                 a, 8 \sustainOn e a e gis e gis e \sustainOff  |
@@ -36,8 +36,8 @@
                 b, 8 \sustainOn fis < b fis' d' > fis \sustainOff < g, fis' d' b > 8. \sustainOn < g, fis' b d' > ~ < g, fis' d' b > 8 \sustainOff  |
                 < fis' cis' d' d a > 8 \sustainOn < fis' d' d a cis' > 4 < fis' cis' a d d' > 4. fis 8 a \sustainOff  |
 %% 20
-                g, 8 \sustainOn d a < d' b a g g, d > ~ < d' g a d g, b > 4 d 8 g \sustainOff  |
-                fis, 8 \sustainOn d fis < d' a fis fis, d > ~ < d' fis, d a fis > 4 d 8 fis \sustainOff  |
+                g, 8 \sustainOn d a < d' b a g g, d > 4. d 8 g \sustainOff  |
+                fis, 8 \sustainOn d fis < d' a fis fis, d > 4. d 8 fis \sustainOff  |
                 f, 8 \sustainOn a, c f a c' f' a'  |
                 < f' a' c'' f > 2 r \sustainOff  |
                 a, 8 \sustainOn e a e gis e gis e \sustainOff  |
