@@ -48,15 +48,15 @@
             \lyricsto "voz" \new Lyrics \lyricmode {
 		"Cor" -- "de" -- "ro" "de" "Dios,"
 		"que" "qui" -- "tas" "el" "pe" -- "ca" -- "do" "del" "mun" -- "do,"
-		"ten" "pie" -- "dad," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+		"ten" "pie" -- "dad," "ten" "pie" -- "dad" "de" "no" -- "so" __ "tros."
 
 		"Cor" -- "de" -- "ro" "de" "Dios,"
 		"que" "qui" -- "tas" "el" "pe" -- "ca" -- "do" "del" "mun" -- "do,"
-		"ten" "pie" -- "dad," "ten" "pie" -- "dad" "de" "no" -- "so" -- "tros."
+		"ten" "pie" -- "dad," "ten" "pie" -- "dad" "de" "no" -- "so" __ "tros."
 
 		"Cor" -- "de" "ro" "de" "Dios,"
 		"que" "qui" -- "tas" "el" "pe" -- "ca" -- "do" "del" "mun" -- "do,"
-		"da" -- "nos" "la" "paz," "da" -- "nos" "la" "paz," "da" -- "nos" "la" "paz."
+		"da" -- "nos" "la" "paz," "da" -- "nos" "la" "paz," "da" __ "nos" "la" "paz."
              } % Lyrics
 
 
