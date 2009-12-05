@@ -4,7 +4,6 @@
 #(ly:set-option 'point-and-click #f)
 \header {
     composer = "Gerardo J. Flores/Virgilio Cantú"
-    subtitle = "Misa Don Bosco"
     title = "Cordero de Dios"
     tagline = "Coro Juvenil San Juan Bosco"
 }
