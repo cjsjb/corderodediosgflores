@@ -16,6 +16,9 @@ global = {
 globalTempo = {
     \tempo 4 = 75  \skip 1*26 
 }
+
+\include "msjbcordero3-bajo.def"
+
 \score {
     \new StaffGroup <<
         % force offset of colliding notes in chords:
@@ -23,6 +26,7 @@ globalTempo = {
 	\override Score.MetronomeMark #'padding = #8.0
 
 	\include "msjbcordero3-acordes.inc"
+	\include "msjbcordero3-voz.inc"
 	\include "msjbcordero3-bajo.inc"
 
     >> % notes
