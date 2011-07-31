@@ -37,7 +37,7 @@ globalTempo = {
 	\include "msjbcordero3-voz.inc"
 	\include "msjbcordero3-piano.inc"
 	\include "msjbcordero3-bajo.inc"
-	\include "msjbcordero3-flauta.inc"
+	\include "msjbcordero3-violin.inc"
     >> % notes
 
     \layout { }

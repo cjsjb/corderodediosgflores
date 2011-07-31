@@ -6,6 +6,7 @@
     composer = "Gerardo J. Flores/Virgilio Cantú"
     title = "Cordero de Dios"
     tagline = "Coro Juvenil San Juan Bosco"
+    instrument = "Violín"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
@@ -29,7 +30,7 @@ globalTempo = {
 	\override Score.MetronomeMark #'padding = #8.0
 
 	\include "msjbcordero3-acordes.inc"
-	\include "msjbcordero3-flauta.inc"
+	\include "msjbcordero3-violin.inc"
     >> % notes
 
     \layout { }
