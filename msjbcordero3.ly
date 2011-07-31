@@ -34,7 +34,7 @@ globalTempo = {
         \override Score.NoteColumn #'force-hshift = #1.0
 
 	\include "msjbcordero3-acordes.inc"
-	\include "msjbcordero3-voz.inc"
+	\include "msjbcordero3-soprano.inc"
 	\include "msjbcordero3-piano.inc"
 	\include "msjbcordero3-bajo.inc"
 	\include "msjbcordero3-violin.inc"
