@@ -6,6 +6,7 @@
 	composer = "Gerardo J. Flores/Virgilio Cantú"
 	title = "Cordero de Dios"
 	tagline = "Coro Juvenil San Juan Bosco"
+	instrument = "Mezzosoprano"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
@@ -17,27 +18,22 @@
 }
 global = {
 	\time 4/4
-	\skip 1*26  %% 1-26
+	\skip 1*7  %% 1-7
+	%\break
+	\skip 1*7  %% 8-14
+	%\break
+	\skip 1*12  %% 15-26
 }
 globalTempo = {
 	\tempo 4 = 75  \skip 1*26
 }
-
-\include "msjbcordero3-bajo.def"
-
 \score {
-	<<
+	\new StaffGroup <<
 		% force offset of colliding notes in chords:
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "msjbcordero3-acordes.inc"
-		\new StaffGroup <<
-			\include "msjbcordero3-soprano.inc"
-			\include "msjbcordero3-mezzo.inc"
-		>>
-		\include "msjbcordero3-piano.inc"
-		\include "msjbcordero3-bajo.inc"
-		\include "msjbcordero3-violin.inc"
+		\include "msjbcordero3-mezzo.inc"
 	>> % notes
 
 	\layout { }
