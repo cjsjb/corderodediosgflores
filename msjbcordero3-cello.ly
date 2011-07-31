@@ -3,35 +3,35 @@
 % point and click debugging is disabled
 #(ly:set-option 'point-and-click #f)
 \header {
-    composer = "Gerardo J. Flores/Virgilio Cantú"
-    title = "Cordero de Dios"
-    tagline = "Coro Juvenil San Juan Bosco"
-    instrument = "Cello"
+	composer = "Gerardo J. Flores/Virgilio Cantú"
+	title = "Cordero de Dios"
+	tagline = "Coro Juvenil San Juan Bosco"
+	instrument = "Cello"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
-global = { 
-    \time 4/4
-    \skip 1*7  %% 1-7
-    \break
-    \skip 1*7  %% 8-14
-    \break
-    \skip 1*8  %% 15-22
-    \break
-    \skip 1*4  %% 23-26
+global = {
+	\time 4/4
+	\skip 1*7  %% 1-7
+	\break
+	\skip 1*7  %% 8-14
+	\break
+	\skip 1*8  %% 15-22
+	\break
+	\skip 1*4  %% 23-26
 }
 globalTempo = {
-    \tempo 4 = 75  \skip 1*26 
+	\tempo 4 = 75  \skip 1*26
 }
 \score {
-    \new StaffGroup <<
-        % force offset of colliding notes in chords:
-        \override Score.NoteColumn #'force-hshift = #1.0
+	\new StaffGroup <<
+	% force offset of colliding notes in chords:
+	\override Score.NoteColumn #'force-hshift = #1.0
 	\override Score.MetronomeMark #'padding = #8.0
 
 	\include "msjbcordero3-acordes.inc"
 	\include "msjbcordero3-cello.inc"
-    >> % notes
+	>> % notes
 
-    \layout { }
+	\layout { }
 } % score
