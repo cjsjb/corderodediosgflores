@@ -2,9 +2,6 @@
 \version "2.10.0"
 % point and click debugging is disabled
 #(ly:set-option 'point-and-click #f)
-\paper {
-	between-system-padding = #0.7
-}
 \header {
 	composer = "Gerardo J. Flores/Virgilio Cantú"
 	title = "Cordero de Dios"
@@ -29,15 +26,17 @@ globalTempo = {
 \include "msjbcordero3-bajo.def"
 
 \score {
-	\new StaffGroup <<
-	% force offset of colliding notes in chords:
-	\override Score.NoteColumn #'force-hshift = #1.0
+	<<
+		% force offset of colliding notes in chords:
+		\override Score.NoteColumn #'force-hshift = #1.0
 
-	\include "msjbcordero3-acordes.inc"
-	\include "msjbcordero3-soprano.inc"
-	\include "msjbcordero3-piano.inc"
-	\include "msjbcordero3-bajo.inc"
-	\include "msjbcordero3-violin.inc"
+		\include "msjbcordero3-acordes.inc"
+		\new StaffGroup <<
+			\include "msjbcordero3-soprano.inc"
+		>>
+		\include "msjbcordero3-piano.inc"
+		\include "msjbcordero3-bajo.inc"
+		\include "msjbcordero3-violin.inc"
 	>> % notes
 
 	\layout { }
