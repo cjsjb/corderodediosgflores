@@ -1,4 +1,4 @@
-\context Staff = "track 4" <<
+\context Staff = "violin" <<
 	\set Staff.instrumentName = "Violín"
 	\set Staff.shortInstrumentName = "V."
 	\set Score.skipBars = ##t
@@ -6,7 +6,7 @@
 	\new Voice \global
 	\new Voice \globalTempo
 
-	\context Voice = "voice 4" {
+	\context Voice = "voz-violin" {
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
 
@@ -38,8 +38,8 @@
 		a' 2 gis'  |
 		a' 2 gis'  |
 %% 25
-		a' 1 ~  |
-		a' 2 r  |
+		a' 1  |
+		a'' 2 r  |
 		\bar "|."
 	} % Voice
 >> % Staff
