@@ -35,10 +35,13 @@ globalTempo = {
 			\include "msjbcordero3-soprano.inc"
 			\include "msjbcordero3-mezzo.inc"
 		>>
+		\new StaffGroup <<
+			\include "msjbcordero3-violin.inc"
+			\include "msjbcordero3-viola.inc"
+			\include "msjbcordero3-cello.inc"
+		>>
 		\include "msjbcordero3-piano.inc"
 		%\include "msjbcordero3-bajo.inc"
-		\include "msjbcordero3-violin.inc"
-		\include "msjbcordero3-cello.inc"
 	>> % notes
 
 	\layout { }
