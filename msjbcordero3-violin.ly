@@ -3,7 +3,7 @@
 % point and click debugging is disabled
 #(ly:set-option 'point-and-click #f)
 \header {
-	composer = "Gerardo J. Flores/Virgilio Cantú"
+	composer = "P. Gerardo Javier Flores Cárdenas/Virgilio Cantú"
 	title = "Cordero de Dios"
 	tagline = "Coro Juvenil San Juan Bosco"
 	instrument = "Violín"
