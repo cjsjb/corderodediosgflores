@@ -20,8 +20,6 @@ globalTempo = {
 	\tempo 4 = 75
 }
 
-\include "msjbcordero3-bajo.def"
-
 \score {
 	<<
 		% force offset of colliding notes in chords:
