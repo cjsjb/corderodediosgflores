@@ -10,6 +10,8 @@
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
 
+		$(let ((val (ly:parser-lookup 'easy))) (if (null? val) #{ #} val))
+
 		\clef "bass"
 		\key a \major
 		r2 r4 a 8 gis  |
