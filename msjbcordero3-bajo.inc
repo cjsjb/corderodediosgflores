@@ -20,7 +20,8 @@
 >> % Staff (final)
 
 \context TabStaff = "tabbajo" <<
-	\set TabStaff.stringTunings = #'(-17 -22 -27 -32)
+	\clef moderntab
+	\set Staff.stringTunings = \stringTuning <e,, a,, d, g,>
 	\override Stem #'transparent = ##t
 	\override Stem #'length = #0
 	\override Beam #'transparent = ##t
